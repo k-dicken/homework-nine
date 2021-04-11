@@ -1,0 +1,112 @@
+.content {
+    padding: 50px 0 100px 0;
+
+    h1 {
+        color: #27affd;
+        font-size: 70px;
+        text-align: center;
+        margin-bottom: 50px;
+        
+    }
+
+    p {
+        // color: white;
+        font-size: 24px;
+    }
+
+    .split {
+        margin-top: 100px;
+    }
+
+    .small {
+        width: 50%;
+        margin: 0 auto;
+    }
+
+    .section-content {
+        display: flex;
+        justify-content: space-between;
+        margin-bottom: 50px;
+
+        p {
+            // color: white;
+            // font-size: 16px;
+            width: 90%;
+            margin: 0 auto;
+            text-align: center;
+        }
+
+        .image {
+            width: 45%;
+            height: 300px;
+
+            margin: 0 auto;
+
+            background-position: center;
+            background-repeat: no-repeat;
+            background-size: cover;
+        }
+
+        h2 {
+            margin: 0 auto;
+            color: #27affd;
+            font-size: 48px;
+            text-align: center;
+        }
+
+        // home images
+
+        .home-one {
+            background-image: url(../assets/home-1.jpg);
+        }
+
+        .home-two {
+            background-image: url(../assets/home-2.jpg);
+        }
+
+        // about images
+
+        .about-one {
+            background-image: url(../assets/about-1.jpg);
+        }
+
+        .about-two {
+            background-image: url(../assets/about-2.jpg);
+        }
+
+        // times images
+
+        
+        .times-one {
+            width: 600px;
+            height: 400px;
+            background-image: url(../assets/times-1.jpg);
+        }
+
+        .times-two {
+            background-image: url(../assets/times-2.jpg);
+        }
+
+        .times-three {
+            background-image: url(../assets/times-3.jpg);
+        }
+
+        // contact images
+
+        .contact-one {
+            background-image: url(../assets/contact-1.jpg);
+        }
+
+        .contact-two {
+            background-image: url(../assets/contact-2.jpg);
+        }
+    
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    .content {
+        width: 90%;
+        margin: 0 auto;
+    }
+}

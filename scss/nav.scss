@@ -1,0 +1,25 @@
+nav {
+    height: 80px;
+
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+
+    a {
+        color: black;
+        text-decoration: none;
+
+        font-size: 24px;
+    }
+
+    a:hover {
+        color: #27affd;
+    }
+}
+
+@media only screen and (max-width: 1260px) {
+    nav {
+        width: 90%;
+        margin: 0 auto;
+    }
+}
